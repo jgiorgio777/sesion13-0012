@@ -1,0 +1,116 @@
+#contenedor {
+    /* porque no se sabe el tamaño de la PC que va ocupar */
+    width: 90%;
+    max-width: 900px;
+    margin: 0px auto;
+    background-color: #ffffff;
+    padding: auto;
+}
+
+ul,
+ul li {
+    /* quitar viñetas */
+    margin-left: 15px;
+    margin-top: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+p,
+form {
+    /* para tener todo pegado */
+    margin: 0px;
+    padding: 0px;
+}
+
+.clear {
+    /* para que los costados esten limpios cada vez que se ejecute */
+    clear: both;
+}
+
+img {
+    border: none;
+}
+
+header,
+nav,
+aside,
+#contenedor article,
+#contenido aside,
+footer {
+    /* poner borde que sea de un determinado color */
+    border: 2px solid #777777;
+}
+
+header {
+    /* configuración del encabezado */
+    background-color: #7ac034;
+    border: 3px solid yellow;
+}
+
+#contenido article header {
+    /* solo para los encabezados */
+    background-color: transparent;
+    border: none;
+}
+
+aside {
+    /* flotar para lado izquierdo */
+    float: left;
+    width: 20%;
+    background-color: yellow;
+}
+
+#contenido {
+    float: right;
+    width: 78%;
+}
+
+#contenido article {
+    float: left;
+    width: 73%;
+    background-color: #7fffd4;
+}
+
+#contenido aside {
+    float: right;
+    width: 25%;
+}
+
+footer {
+    clear: both;
+}
+
+header #logo {
+    float: left;
+}
+
+header #buscador {
+    float: right;
+}
+
+nav ul#menu_principal li {
+    /* para poner en alineación horizontal de la vertical */
+    display: inline;
+    float: left;
+}
+
+#contenido section img {
+    width: 100px;
+    float: left;
+}
+
+footer .enlaces {
+    float: left;
+}
+
+footer .copyright {
+    float: right;
+}
+
+aside #noticias {
+    border: 1px solid#c5c5c5;
+}
